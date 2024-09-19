@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Isabelly de Oliveira Barboza</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section id="banner">
+        <div class="container">
+            <h2>Olá, eu sou <span>Isabelly</span></h2>
+            <img src="isa.jpeg" alt="Minha imagem referencia">
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou uma estudante do Ensino Médio, gosto de montar sites sobre animes e manga.</p>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="project-grid">
+                
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <img src="projeto1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1: Plataforma de E-commerce</h3>
+                    <p>Desenvolvi uma plataforma de e-commerce moderna com funcionalidades completas de compra, carrinho e pagamento, utilizando React no frontend e Node.js no backend.</p>
+                    <a href="https://github.com/seu-usuario/projeto1" target="_blank" class="btn">Ver Projeto</a>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <img src="projeto2.jpg" alt="Projeto 2">
+                    <h3>Projeto 2: Aplicativo de Gestão de Tarefas</h3>
+                    <p>Este aplicativo foi desenvolvido em Vue.js e Firebase para gerenciar tarefas de maneira eficiente, com recursos como adicionar, editar e deletar tarefas, e notificações em tempo real.</p>
+                    <a href="https://github.com/seu-usuario/projeto2" target="_blank" class="btn">Ver Projeto</a>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <img src="projeto3.jpg" alt="Projeto 3">
+                    <h3>Projeto 3: Dashboard de Análise de Dados</h3>
+                    <p>Um dashboard interativo que permite a visualização e análise de dados complexos usando gráficos dinâmicos. Desenvolvido com D3.js e integrado a uma API RESTful.</p>
+                    <a href="https://github.com/seu-usuario/projeto3" target="_blank" class="btn">Ver Projeto</a>
+                </div>
+
+                <!-- Adicione mais projetos conforme necessário -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="submit.php" method="post">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/seu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/seu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/seu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
