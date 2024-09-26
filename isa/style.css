@@ -1,0 +1,63 @@
+/* Estilo básico */
+body {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+    font-family: 'Press Start 2P', sans-serif; /* Estilo inspirado em jogos e animes retro */
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 3em;
+    color: #ff4081; /* Rosa neon inspirado em animes cyberpunk */
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  .project {
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid #ff4081;
+    border-radius: 10px;
+    background: rgba(255, 64, 129, 0.1); /* Fundo translúcido */
+    transition: transform 0.3s ease;
+  }
+  .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ff4081; /* Efeito de brilho ao passar o mouse */
+  }
+  
+  .project-title {
+    font-size: 2em;
+    color: #00e5ff; /* Azul claro inspirado em tons de neon */
+  }
+  
+  .project-description {
+    font-size: 1.2em;
+    color: #b3b3b3;
+  }
+  
+  .project-link {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #00e5ff;
+    border-bottom: 2px solid #00e5ff;
+    transition: color 0.3s ease;
+  }
+  .project-link:hover {
+    color: #ff4081;
+    border-bottom: 2px solid #ff4081;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #ff4081;
+  }
+  
+  /* Adicionar fonte retro */
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
